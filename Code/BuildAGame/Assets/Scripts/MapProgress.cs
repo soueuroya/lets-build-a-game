@@ -21,7 +21,7 @@ public class MapProgress : MonoBehaviour
     private void Awake()
     {
         // Uncomment out below to automatically show map progress when the OverworldMap canvas is enabled
-        //ShowMapProgress();
+        ShowMapProgress();
     }
 
     // TODO: This needs to get called by the UI somewhere? Or we can have it done automatically when map canvas is enabled
