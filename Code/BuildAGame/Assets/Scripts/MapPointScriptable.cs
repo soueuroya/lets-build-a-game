@@ -9,10 +9,10 @@ using UnityEngine;
 [CreateAssetMenu (fileName = "NewMapPoint", menuName = "Map Point", order = 1)]
 public class MapPointScriptable : ScriptableObject
 {
-    [Tooltip("The name of this location")]
+    [Tooltip("The name of this location.")]
     public string mapPointName;
 
-    [Tooltip ("A description of this location")]
+    [Tooltip ("A description of this location.")]
     public string mapPointDescription;
 
     [Tooltip("An image of the actual map point. Please size it to the map size and use a format that supports transparency.")]
@@ -21,6 +21,9 @@ public class MapPointScriptable : ScriptableObject
     [Tooltip ("An image to display once the player has reached or passed this point on the map. Please size to full map size.")]
     public Sprite mapProgressImage;
 
-    [Tooltip ("Any map points that come directly after this map point")]
+    [Tooltip ("Any map points that come directly after this map point.")]
     public List<MapPointScriptable> followingMapPoint = new List<MapPointScriptable>();
+
+    [Tooltip("The position where this point should be initialized.")]
+    public Vector2 mapPointPosition;
 }
