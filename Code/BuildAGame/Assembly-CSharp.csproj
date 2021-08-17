@@ -57,9 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\UIDefaultButtonScript.cs" />
     <Compile Include="Assets\Scripts\MapPointScriptable.cs" />
     <Compile Include="Assets\Scripts\MapProgress.cs" />
-    <Compile Include="Assets\UIDefaultButtonScript.cs" />
+    <Compile Include="Assets\SelectedPointUIMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
