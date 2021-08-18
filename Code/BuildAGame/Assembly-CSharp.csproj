@@ -56,11 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MusicManager.cs" />
-    <Compile Include="Assets\Scripts\UIDefaultButtonScript.cs" />
-    <Compile Include="Assets\Scripts\MapPointScriptable.cs" />
-    <Compile Include="Assets\Scripts\MapProgress.cs" />
-    <Compile Include="Assets\SelectedPointUIMenu.cs" />
+    <Compile Include="Assets\Scripts\AudioScripts\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\UnityEditorScripts\FloatRangeAttributeDrawer.cs" />
+    <Compile Include="Assets\Scripts\UnityEditorScripts\RandomSoundPlayerCustomEditor.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\UIDefaultButtonScript.cs" />
+    <Compile Include="Assets\Scripts\MapScripts\MapPointScriptable.cs" />
+    <Compile Include="Assets\Scripts\UnityEditorScripts\FloatRangeAttribute.cs" />
+    <Compile Include="Assets\Scripts\MapScripts\MapProgress.cs" />
+    <Compile Include="Assets\Scripts\UnityEditorScripts\RandomSoundPlayEvent.cs" />
+    <Compile Include="Assets\Scripts\UnityEditorScripts\RandomSoundPlayerScriptable.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\SelectedPointUIMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
